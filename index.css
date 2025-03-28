@@ -516,12 +516,12 @@ body:not(.user-is-tabbing) a:focus {
 
 .client__logo {
     height: 6.5rem;
-    max-width: 18rem;
+    max-width: 15rem;
     filter: none; /* Remove color filters */
     fill:currentColor
 }
 
-@media(max-width: 1240px) {
+@media(max-width: 1200px) {
     .client__logos {
         overflow-x: scroll;
         padding: var(--gutter-normal);
