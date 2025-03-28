@@ -518,6 +518,7 @@ body:not(.user-is-tabbing) a:focus {
     height: 6.5rem;
     max-width: 18rem;
     filter: none; /* Remove color filters */
+    fill:currentColor
 }
 
 @media(max-width: 1240px) {
